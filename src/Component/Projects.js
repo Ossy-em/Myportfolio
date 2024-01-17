@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectImage from '../images/countriesAPI.PNG';
  // Replace 'your_image.jpg' with your actual image filename
-
+  // project name
 
 const Projects = () => {
   // Define project details
@@ -10,7 +10,7 @@ const Projects = () => {
 
   
 
-  // Function to open project URL in a new tab
+  // Function to open project URL in a new tab 
   const viewProject = () => {
     window.open(projectUrl, '_blank');
   };
@@ -19,7 +19,8 @@ const Projects = () => {
 
     <div className='project' >
 
-  <h1 className='projecth1'>Completed Projects</h1>
+  <h1 className='projecth1'>Completed Projects</h1> 
+
 
     <div className="project-card">
 
