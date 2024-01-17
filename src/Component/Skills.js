@@ -13,27 +13,27 @@ const Skills = () => {
 
       <FontAwesomeIcon className='icon' icon={faLanguage}></FontAwesomeIcon>
     <h1>Language</h1>
-    <h4>Unleashing the potential of JavaScript, HTML5, and CSS, I sculpt unique websites. 
-      Infusing creativity and functionality, these languages craft visually stunning,
-       responsive interfaces for an immersive user journey across devices. Your digital presence, redefined.</h4>
+    <p>Leveraging JavaScript, HTML5, and CSS, I design distinctive websites that blend creativity and functionality.
+       These languages create visually striking, responsive interfaces for an immersive user journey on all devices. 
+       Redefining your digital presence.</p>
     </div>
 
     
     
     <div class="category">
     <FontAwesomeIcon className='icon' icon={faPhoenixFramework} />
-    <h1>Framework</h1>
-    <h4>Combining React.js and jQuery, I sculpt websites with finesse.
-       React.js revolutionizes UI with modular components, while jQuery simplifies DOM manipulation,
-       resulting in immersive, responsive web solutions that seamlessly engage and delight users.</h4>
+    <h1>Framework/Libaries</h1>
+    <p>Combining React.js and Next.js, I sculpt websites with finesse.
+       React.js revolutionizes UI with modular components,while Next.js simplifies server-side rendering, 
+      resulting in immersive, responsive web solutions that seamlessly engage and delight users.</p>
     </div>
 
     <div class="category">
     <FontAwesomeIcon className='icon' icon={faFigma} /> 
-    <h1>Tools</h1>
-    <h4>Leveraging Figma and Git, I sculpt captivating designs and streamline collaborative coding.
-       Figma's design versatility coupled with Git's robust version control ensures seamless teamwork,
-       fostering innovative designs and efficient code management for exceptional project outcomes.</h4>
+    <p className='category-name'>Tools</p>
+    <p>Utilizing Figma and Git, I design and code collaboratively. Figma's versatility, 
+      paired with Git's version control, ensures seamless teamwork, fostering innovative 
+      designs and efficient code management for exceptional outcomes.</p>
     </div>
 
        </div>

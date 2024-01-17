@@ -38,59 +38,7 @@ const Home = () => {
       </section>
 
        {/* Link to scroll to the top of the page */}
-       <span className='bottom'
-        onClick={scrollToTop}
-        style={{
-          // textDecoration: 'none',
-          // color: 'white',
-          // cursor: 'pointer',
-          // display: 'inline',
-          // padding: '0',
-          // margin: '0',
-          // fontSize: '25px',
-          // fontFamily: 'Pacifico-Regular',
-          // marginBottom: '120p0x',
-          // marginLeft: '120px',
-          // background: 'transparent',
-          
-        textDecoration: 'none',
-        color: 'white',
-        cursor: 'pointer',
-        display: 'inline',
-        padding: '10px', // Adjust padding as needed
-        fontSize: '25px',
-        fontFamily: 'Pacifico-Regular',
-        position: 'absolute ', // Set the position to fixed
-        bottom: '-110%', // Adjust the distance from the bottom
-        left: '210px', // Adjust the distance from the right
-        background: 'transparent',
-        }}
-      >
-        Home
-      </span>
-
-      {/* Link to scroll to the Projects section */}
-      <Link className='bottom'
-        to="/projects"
-        onClick={scrollToProjects}
-        style={{
-            
-        textDecoration: 'none',
-        color: 'white',
-        cursor: 'pointer',
-        display: 'inline',
-        padding: '10px', // Adjust padding as needed
-        fontSize: '25px',
-        fontFamily: 'Pacifico-Regular',
-        position: 'absolute ', // Set the position to fixed
-        bottom: '-110%', // Adjust the distance from the bottom
-        left: '320px', // Adjust the distance from the right
-        background: 'transparent',
-        }}
-      >
-        Projects
-      </Link>
-
+      
      
     </div>
   );
