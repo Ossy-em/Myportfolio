@@ -12,7 +12,7 @@ const Skills = () => {
       <div class="category">
 
       <FontAwesomeIcon className='icon' icon={faLanguage}></FontAwesomeIcon>
-    <h1>Language</h1>
+    <p className='category-name'>Language</p>
     <p>Leveraging JavaScript, HTML5, and CSS, I design distinctive websites that blend creativity and functionality.
        These languages create visually striking, responsive interfaces for an immersive user journey on all devices. 
        Redefining your digital presence.</p>
@@ -22,7 +22,7 @@ const Skills = () => {
     
     <div class="category">
     <FontAwesomeIcon className='icon' icon={faPhoenixFramework} />
-    <h1>Framework/Libaries</h1>
+    <p className='category-name'> Framework/Libaries</p>
     <p>Combining React.js and Next.js, I sculpt websites with finesse.
        React.js revolutionizes UI with modular components,while Next.js simplifies server-side rendering, 
       resulting in immersive, responsive web solutions that seamlessly engage and delight users.</p>
@@ -43,26 +43,3 @@ const Skills = () => {
 
 export default Skills;
 
-
-// <h2 className="skil">My Skills</h2> 
-//       <div className='sc'>
-//       <div class="category">
-//     <h1>Language</h1>
-//     <div class="skills-item">JavaScript</div>
-//     <div class="skills-item">HTML5</div>
-//     <div class="skills-item">CSS</div>
-//     <div class="skills-item">Python</div>
-//   </div>
-
-//   <div class="category">
-//     <h1>Framework</h1>
-//     <div class="skills-item">React.js</div>
-//     <div class="skills-item">jQuery</div>
-//   </div>
-
-//   <div class="category-3">
-//     <h1>Tools</h1>
-//     <div class="skills-item">Figma</div>
-//     <div class="skills-item">Git</div>
-//   </div>
-//       </div>

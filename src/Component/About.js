@@ -1,19 +1,19 @@
-
-
 import React from 'react';
+import {useNavigate} from 'react-router-dom'
 
 const About = () => {
+  let navigatate = useNavigate();
   return (
     <section className="about">
       <div className='about-about'>
       {/* <h1>Hey, I'm Ossy! A Creative </h1> <div className='fd'>Frontend Developer</div> */}
       <h1>Hey, I'm Ossy! A Creative Frontend Developer</h1>
        </div>
-      
+
       <p>
-      I design visually appealing websites and discuss technology trends.</p>
+      I specialize in crafting visually appealing websites and engaging in discussions on current tech trends.</p>
       
-      
+      <button className='about-btn' onClick={()=>{navigatate('/projects')}}>Project</button> {/*Nagivation button*/}
 
       <div className='do'>
       <h2>What I do</h2>

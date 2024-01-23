@@ -1,7 +1,8 @@
 
+
 body{
   background-color: #020910;
-  margin-left: 50px;
+  margin-left: 0px;
   /* margin-right: -10px; */
 }
 * {
@@ -24,34 +25,32 @@ header {
 	display: flex;
 	align-items: center;
   width: 100%;
+  margin-left: 3%;
 	justify-content: space-between;
-	height: 17%;
+	height: 14%;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
-  
 }
 
 header h3{
   font-size: 70px;
+  font-Family: 'Pacifico-Regular';
 }
-
 nav a {
 	/* margin: 0 1rem; */
 	color: var(--textColor);
 	text-decoration: none;
-  margin-left: 70%;
+  margin-left: 130%;
   font-size:22px;
- text-align:end;
-  margin-right: -60%;
+  text-align:end;
+  margin-right: -120%;
   justify-content: space-between;
   
 }
-
 nav a:hover {
 	color: var(--secondaryColor);
 }
-
 header .nav-btn {
 	padding: 5px;
 	cursor: pointer;
@@ -64,8 +63,6 @@ header .nav-btn {
 	opacity: 0;
 	font-size: 3.0rem;
 }
-
-header div,
 nav {
 	display: flex;
 	align-items: center;
@@ -74,65 +71,118 @@ nav {
 /* ABOUT.css */
 .about {
   align-items: center; /* Align items vertically in the center */
-  margin-top: 33px;
+  margin-top: 25px;
   margin-left: 20%;
 }
 .about-about{
-  margin-left: -5%;
+  margin-left: 1%;
   margin-right: 10%;
   display: grid;
-  
 }
 .about h1{
-  margin-left: 0px;
+  margin-left: 5px;
   margin-right: 20%;
-  margin-top: 18%;
+  margin-top: 17%;
   color: #eee;
   font-size: 73px;
   font-Family: 'Pacifico-Regular';
-  text-align: center;
-   
+  text-align: center; 
+  color:white; 
+  
+}
+
+.about-btn {
+  color: white;
+  background: linear-gradient(to right, rgb(245, 140, 140) 50%, #dadada 50%);
+  background-size: 200% 100%;
+  background-position: -100% 0;
+  transition: background-position 0.9s ease, color 0.7s ease;
+  padding: 10px 20px;
+  color: #010407;
+  font-size:larger ;
+  font-weight: bolder;
+  width: 14%;
+  height: 60px;
+  border-radius: 46px;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.about-btn1{
+  color: white;
+ background: linear-gradient(to right, rgb(245, 140, 140) 50%, #dadada 50%);
+ background-size: 200% 100%;
+ background-position: -100% 0;
+ transition: background-position 0.9s ease, color 0.7s ease;
+ padding: 10px 20px;
+ color: #010407;
+ font-size:larger ;
+ font-weight: bolder;
+ width: 14%;
+ height: 60px;
+ border-radius: 46px;
+ margin-top: 2%;
+ margin-left: 22%; 
+}
+
+
+
+.about-btn:hover {
+  background-position: 100% 0;
+  color: white;
 }
 .about p{
-  margin-left: 10%;
+  margin-left: 17%;
   margin-top: -4%;
   margin-right: 45%;
-  font-size: 20px; 
+  font-size: 21px; 
   color: #eee;
   font-Family: 'Pacifico-Regular';
   text-align: center;
+  
 }
 
-
 .do{
-  color: aliceblue;
+  color: #eee;
   font-Family: 'Pacifico-Regular';
   margin-left: -15%;
 }
 .do h2{
-  margin-top: 15%;
+  margin-top: 10%;
   font-weight: bold;
   font-size: 55px; 
   font-Family: 'Pacifico-Regular';
+  font-size: 60px;
+  color: white;
 }
 .do p{
   font-size: 18px; 
   margin-right:62%;
   margin-left: -0%;
-  margin-top: -1%;
+  margin-top: -3%;
   text-align: left;
 
 }
+.do-do{
+  margin-top: -14%;
+}
 
+.do-do h3{ 
+  margin-left: 70%;
+  font-size: 70px;
+  margin-top: -3%;
+
+}
+
+.do-do span{
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
 /* CSS FOR SKILLS */
 
 .sc{
   display: flex;
-  /* margin-left: 120px; */
-  /* margin-right: 100px; */
-  /* justify-content: space-between; */
 }
-
 .skil {
   font-size: 55PX;
   text-align: center;
@@ -140,10 +190,9 @@ nav {
   margin-top: 150px;
   color: rgb(238, 241, 243);
   font-Family: 'Pacifico-Regular';
-  /* margin-left: 8%; */
-  
+  margin-left: -2%;
+  color: white;
 }
-
 .category {
   margin: 10px;
   font-weight:lighter;
@@ -152,15 +201,14 @@ nav {
   padding-right: 40px;
   background-color: #25292e;
   border-radius: 20px;
-  width: 370px; /* Adjust width as needed */
-  height: 420px; /* Adjust height as needed */
+  width: 400px; /* Adjust width as needed */
+  height: 380px; /* Adjust height as needed */
   margin-top: 20px;
   color: rgb(219, 221, 223);
   font-size: 17px;
   margin-left: 120px;
   margin-right: -60px;
 }
-
 .category-name{
   font-family: 'Pacifico-Regular';
   font-size: 28px;
@@ -198,12 +246,23 @@ nav {
 .contact-container {
   display: flex;
   flex-direction:row;
-  align-items: center;
-  margin-left: 1000px;
+  text-align: right;
+  justify-content:flex-end;
+  margin-right: 10%;
   padding-top: 156px;
-  margin-bottom: 100px;
-  /* margin-top: 15px; */
+  padding-bottom: 50px;
+  text-decoration: dashed;
+  color: #fff;
 }
+.app-container{
+  margin-bottom: 80px;
+  /* justify-items: flex-start; */
+  width:  65%;
+ }
+ .horizontal{
+  width: 47%;
+  color: #db2b39
+ }
 
 .contact-link {
    margin-top: 119px;
@@ -298,26 +357,30 @@ button {
   margin-top: auto;
 }
 
+
+
 /*working*/
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 413px) {
   .about {
-    margin-left: 10%;
+    margin-left: 12%;
+    margin-top: 20%;
+    font-size: medium;
+    
+     p{
+      margin-left: 10px;
+    }
+  }
+ 
+  .do{
+    margin-left: 17% ;
   }
 
-  .about h1 {
-    margin-left: 10px;
-    font-size: 24px;
-  }
-
-  .fd {
-    margin-left: 10px;
-    font-size: 20px;
-  }
-
-  .about p {
-    margin-left: 10px;
-    font-size: 12px;
-  }
+  .skills{
+    margin-left: -40%;
+    .skil{
+      margin-left: 55px;
+    }
+}
 }
 
 @media only screen and (max-width: 1024px) {
@@ -358,7 +421,6 @@ button {
     margin-left: 40%;
 	}
   
-
   .about h1 {
     margin-top: 20%;
     margin-left: -20%;
@@ -370,14 +432,6 @@ button {
     text-align: center;
     
   }
-  /* .you{
-    margin-left: 05%;
-    display:flex;
-    font-size: 64px;
-    margin-top: -2%;
-    margin-left: -20%;
-    margin-right: 0%;
-  } */
   
   .about p {
     margin-left: 34px;
@@ -408,7 +462,6 @@ button {
   .skil{
     margin-left: -2%;
     font-size: 49px;
-    
   }
   .sc{
     display: flex;
@@ -421,7 +474,4 @@ button {
   } 
   
    
-  
-    
-  
   
