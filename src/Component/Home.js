@@ -2,28 +2,16 @@ import React from 'react';
 import About from './About';
 import Skills from './Skills';
 import Contact from './Contact';
-import { Link } from 'react-router-dom';
+
 
 const Home = () => {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  };
+ 
 
-  const scrollToProjects = () => {
-    const projectsSection = document.getElementById('projects');
-    if (projectsSection) {
-      window.scrollTo({
-        top: projectsSection.offsetTop,
-        behavior: 'smooth'
-      });
-    }
-  };
+
 
   return (
-    <div>
+    
+    <div >
       
       <section id="about">
         <About />
