@@ -12,45 +12,46 @@ const Projects = () => {
   return (
     <div className='project'>
       <h1 className='projecth1'>Completed Projects</h1>
+      <h3>Take a look at few of my completed projects</h3>
       <div className="project-card">
         <h2 className="project-name">{projectName}</h2>
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
-        <button onClick={viewProject}>View Project</button>
+        <button onClick={viewProject} className='project-btn'>View Project</button>
       </div>
 
      
       <div className="project-card">
         <h2 className="project-name">{projectName}</h2>
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
-        <button onClick={viewProject}>View Project</button>
+        <button onClick={viewProject} className='project-btn'>View Project</button>
       </div>
 
       
       <div className="project-card">
         <h2 className="project-name">{projectName}</h2>
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
-        <button onClick={viewProject}>View Project</button>
+        <button onClick={viewProject} className='project-btn'>View Project</button>
       </div>
 
      
       <div className="project-card">
         <h2 className="project-name">{projectName}</h2>
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
-        <button onClick={viewProject}>View Project</button>
+        <button onClick={viewProject} className='project-btn'>View Project</button>
       </div>
 
     
       <div className="project-card">
         <h2 className="project-name">{projectName}</h2>
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
-        <button onClick={viewProject}>View Project</button>
+        <button onClick={viewProject} className='project-btn'>View Project</button>
       </div>
 
       
       <div className="project-card">
         <h2 className="project-name">{projectName}</h2>
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
-        <button onClick={viewProject}>View Project</button>
+        <button onClick={viewProject} className='project-btn'>View Project</button>
       </div>
     </div>
   );

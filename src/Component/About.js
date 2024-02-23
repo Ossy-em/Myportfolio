@@ -16,6 +16,9 @@ const About = () => {
 
   return (
     <section className="about">
+       <div className="background-image-container">
+      {/* You can add additional content if needed */}
+    </div>
       <div className='about-about'>
         <h1>Hey, I'm Ossy! A Creative Frontend Developer</h1>
       </div>
@@ -30,13 +33,15 @@ const About = () => {
       <div className='do'>
         <h2>What I do</h2>
         <p>
-          "I design web UIs with designers for seamless user experiences. Solo or in a team, I excel at coding, integrating features, and transforming designs into quality code. My versatility extends to managing projects independently, delivering exceptional web designs."
+          I design web UIs with designers for seamless user experiences. Solo or 
+          in a team, I excel at coding, integrating features, and transforming 
+          designs into quality code. 
         </p>
         <div className='do-do'>
           <h3>07+   <span>Freelance works</span><AnimatedLine /></h3>
           <h3>10+   <span>Completed Projects</span><AnimatedLine /> </h3>
-          <h3>02+   <span>Years Of Experience</span><AnimatedLine /> </h3>
-          <h3>05+   <span>Client Reviews</span> </h3>
+          <h3> 02+   <span>Years Of Experience</span><AnimatedLine /> </h3>
+          <h3>05+   <span>Client Reviews</span><AnimatedLine />  </h3>
         </div>
       </div>
     </section>

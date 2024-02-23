@@ -9,6 +9,7 @@ const Contact = () => {
 
   return (
     <div className='contact-container'>
+      <h3>Wanna do coffee and chat?</h3>
       <button className='contact-link' onClick={() => openExternalLink('https://github.com/Ossy-em')}>
         <FontAwesomeIcon icon={faGithub} size='2x'/>
         <span className="button-label"></span>
