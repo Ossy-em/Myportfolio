@@ -16,7 +16,7 @@ const Navbar = (props) => {
       <nav ref={navRef}>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/projects" id="contactProjects">Projects</RouterLink>
-        <RouterLink to="/resume" id="contactResume">Resume</RouterLink>
+        {/* <RouterLink to="/resume" id="contactResume">Resume</RouterLink> */}
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />

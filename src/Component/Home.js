@@ -1,18 +1,12 @@
 import React from 'react';
 import About from './About';
 import Skills from './Skills';
-import Contact from './Contact';
-
+import Projects from './Projects'; // Import Projects directly
+import Contacts from './Contact';
 
 const Home = () => {
- 
-
-
-
   return (
-    
-    <div >
-      
+    <div>
       <section id="about">
         <About />
       </section>
@@ -21,13 +15,14 @@ const Home = () => {
         <Skills />
       </section>
 
-      <section id="contact">
-        <Contact />
+      <section id="projects">
+        <Projects />
       </section>
 
-       {/* Link to scroll to the top of the page */}
-      
-     
+      <section id="contacts">
+        <Contacts />
+      </section>
+      {/* Link to scroll to the top of the page */}
     </div>
   );
 };

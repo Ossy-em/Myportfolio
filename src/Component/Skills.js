@@ -13,19 +13,15 @@ const Skills = () => {
 
       <FontAwesomeIcon className='icon' icon={faLanguage}></FontAwesomeIcon>
     <p className='category-name'>Language</p>
-    <p>Leveraging JavaScript, HTML5, and CSS, I design distinctive websites that blend creativity and functionality.
-       These languages create visually striking, responsive interfaces for an immersive user journey on all devices. 
-       Redefining your digital presence.</p>
+    <p>Using JavaScript, HTML5, and CSS, I craft distinctive websites with creative functionality. 
+      These languages create visually striking, responsive interfaces for an immersive user journey on all devices. Redefining your digital presence."</p>
     </div>
 
-    
-    
     <div class="category">
     <FontAwesomeIcon className='icon' icon={faPhoenixFramework} />
     <p className='category-name'> Framework/Libaries</p>
-    <p>Combining React.js and Next.js, I sculpt websites with finesse.
-       React.js revolutionizes UI with modular components,while Next.js simplifies server-side rendering, 
-      resulting in immersive, responsive web solutions that seamlessly engage and delight users.</p>
+    <p>Using React.js and Next.js, I create polished websites with modular UI components and efficient server-side rendering.
+       This synergy results in immersive, responsive web solutions that engage and delight users. Framer enhances the design experience.</p>
     </div>
 
     <div class="category">

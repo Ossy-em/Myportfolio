@@ -1,12 +1,11 @@
 
 
 body{
-  background-color: #020910;
+  background-color: #000000;
   margin-left: 0px;
   /* margin-right: -10px; */
 }
 * {
-	
 	box-sizing: border-box;
 	font-family: "Titillium Web", sans-serif;
 }
@@ -88,7 +87,9 @@ nav {
   font-Family: 'Pacifico-Regular';
   text-align: center; 
   color:white; 
-  
+}
+.AnimatedLine{
+  color: #dadada;
 }
 
 .about-btn {
@@ -125,8 +126,6 @@ nav {
  margin-left: 22%; 
 }
 
-
-
 .about-btn:hover {
   background-position: 100% 0;
   color: white;
@@ -139,8 +138,25 @@ nav {
   color: #eee;
   font-Family: 'Pacifico-Regular';
   text-align: center;
-  
 }
+
+/* .motion-line {
+  width: 2px;
+  height: 20px;
+  background: #db2b39;
+  position:absolute; /* Ensure the z-index property works */
+   /* Set a higher value for the motion design 
+} */
+
+.motion-line-initial {
+  transform: scaleY(0);
+}
+
+.motion-line-animate {
+  transform: scaleY(1.5);
+  transition: transform 1s; /* Animation duration */
+}
+
 
 .do{
   color: #eee;
@@ -161,21 +177,21 @@ nav {
   margin-left: -0%;
   margin-top: -3%;
   text-align: left;
-
 }
 .do-do{
   margin-top: -14%;
 }
 
 .do-do h3{ 
+  font-Family: 'Pacifico-Regular';
   margin-left: 70%;
-  font-size: 70px;
+  font-size: 59px;
   margin-top: -3%;
-
+  color: palegoldenrod;
 }
 
 .do-do span{
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Inter", sans-serif;
 }
 /* CSS FOR SKILLS */
@@ -187,8 +203,7 @@ nav {
   font-size: 55PX;
   text-align: center;
   width: 100%;
-  margin-top: 150px;
-  color: rgb(238, 241, 243);
+  margin-top: 110px;
   font-Family: 'Pacifico-Regular';
   margin-left: -2%;
   color: white;
@@ -198,10 +213,10 @@ nav {
   font-weight:lighter;
   padding-top: 30px;
   padding-left: 35px;
-  padding-right: 40px;
+  padding-right: 35px;
   background-color: #25292e;
   border-radius: 20px;
-  width: 400px; /* Adjust width as needed */
+  width: 390px; /* Adjust width as needed */
   height: 380px; /* Adjust height as needed */
   margin-top: 20px;
   color: rgb(219, 221, 223);
@@ -253,6 +268,7 @@ nav {
   padding-bottom: 50px;
   text-decoration: dashed;
   color: #fff;
+  margin-right: 4%;
 }
 .app-container{
   margin-bottom: 80px;
@@ -357,31 +373,76 @@ button {
   margin-top: auto;
 }
 
-
+/*FOOTER*/
 
 /*working*/
-@media screen and (max-width: 413px) {
-  .about {
-    margin-left: 12%;
+@media only screen and (max-width: 1424px) {
+  .about h1 {
+    margin-left: -22%;
+    margin-right:3%;
     margin-top: 20%;
-    font-size: medium;
-    
-     p{
-      margin-left: 10px;
-    }
+    font-size: 64px; 
+    color:peru;
   }
- 
+  
+  .about p {
+    margin-top: -8%;
+    margin-left: -1%;
+    margin-right: 25%;
+  }
   .do{
-    margin-left: 17% ;
-  }
-
-  .skills{
+    margin-top: 15%;
     margin-left: -40%;
-    .skil{
-      margin-left: 55px;
-    }
+  }
+  .do h2 {
+    margin-top:2%;
+    margin-left: 17%;  
+  }
+  .do p {
+    margin-left: 17%;
+    font-size: 21px;
+    margin-right:44%;
+    margin-top: -2%; 
+    text-align: left;
+  }
+  .do-do{
+    margin-top: -23%;
+  }
+  .do-do h3{
+   margin-right: 10;
+    text-align: right;
+    margin-top: -5%;
+    font-size: 64px;
+  }
+  .about-btn1{
+    width: 28%;
+    margin-left: 10%;
+  }
+  .about-btn{
+    width: 28%;
+  }
+  /*SKILLS*/
+  .skil{
+    margin-left: -2%;
+    font-size: 53px;
+    color:white;
+  }
+  .sc{
+    align-items: center;
+    flex-direction:column;
+    width: 75%;
+    margin-top: -4%;
+  }
+  .category{
+    width: 370px;
+    height: 400px;
+  }
 }
+header{
+  margin-left: 0%;
 }
+
+
 
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
@@ -402,76 +463,222 @@ button {
 		gap: 1.5rem;
 		background-color: var(--mainColor);
 		transition: 1s;
-    flex-wrap: nowrap;
 	}
 
 	header .responsive_nav {
 		transform: translateY(100vh);
 	}
 
-	nav .nav-close-btn { 
+	nav .nav-close-btn {
 		position: absolute;
 		top: 2rem;
 		right: 2rem;
 	}
 
 	nav a {
-		font-size: 1.0rem;
-    flex-wrap: nowrap;
-    margin-left: 40%;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    color: var(--textColor);
+    text-decoration: none;
 	}
   
   .about h1 {
-    margin-top: 20%;
     margin-left: -20%;
-    margin-right: 0%;
-    font-size: 64px; 
-    display: flex;
-    flex-wrap: wrap;
-    color: #eee;
-    text-align: center;
-    
+    margin-right:1%;
+    margin-top: 25%;
+    font-size: 60px; 
+    color: palegoldenrod;
   }
   
   .about p {
-    margin-left: 34px;
-    font-size: 19px;
     margin-top: -8%;
-    margin-left: -30%;
-    margin-right: 0%;
-    text-align: center;
+    margin-left: -1%;
+    margin-right: 25%;
   }
   .do{
     margin-top: 15%;
-    margin-left: 5%;
+    margin-left: 3%;
   }
   .do h2 {
-    margin-top: 10px;
-    font-size: 49px;
-    margin-left: 10%;
-    margin-right: 0%;
+    margin-top:2%;
+    margin-left: 17%;  
   }
   .do p {
-    margin-left: -12%;
-    font-size: 19px;
-    margin-right: 22%;
-    margin-top: -4%; 
+    margin-left: -3%;
+    font-size: 21px;
+    margin-right:24%;
+    margin-top: -7%; 
     text-align: center;
+  }
+  .do-do{
+    margin-top: 22%;
+  }
+  .do-do h3{
+    margin-left: 8%;;
+    text-align: center;
+    margin-top: -10%;
+    font-size: 64px;
+  }
+  .about-btn1{
+    width: 28%;
+    margin-left: 10%;
+  }
+  .about-btn{
+    width: 28%;
   }
   /*SKILLS*/
   .skil{
     margin-left: -2%;
-    font-size: 49px;
+    font-size: 53px;
+    color:white;
   }
   .sc{
-    display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 540px;
-    flex-wrap: wrap-reverse;
+    flex-direction:column;
+    width: 75%;
+    margin-top: -4%;
   }
-  } 
-  
-   
-  
+  .category{
+    width: 370px;
+    height: 400px;
+  }
+}
+header{
+  margin-left: 0%;
+}
+
+@media screen and (max-width: 900px) {
+  /* Styles for screens with a viewport width of 768 pixels or less */
+    .about h1 {
+      margin-left: -22%;
+      margin-right:3%;
+      margin-top: 30%;
+      font-size: 64px; 
+      color:green;
+    }
+    .about p {
+      margin-top: -9%;
+      margin-left: -16%;
+      margin-right: 10%;
+    }
+    .do{
+      margin-top: 10%;
+      margin-left: 3%;
+    }
+    .do h2 {
+      margin-top:23%;
+      margin-left: 11%;
+      margin-right: 0%;
+      font-size: 300%;
+    }
+    .do p {
+      margin-left: -10%;
+      font-size: 19px;
+      margin-right:25%;
+      margin-top: -5%; 
+      text-align: center;
+    }
+    .do-do{
+      margin-top: 14%;
+    }
+    .do-do h3{
+      margin-left: 8%;;
+      margin-right: 26%;
+      margin-top: -7%;
+      font-size: 60px;
+    }
+    .about-btn1{
+      width: 30%;
+      margin-left: 4%;
+    }
+    .about-btn{
+      width: 30%;
+    }
+    /*SKILLS*/
+    .skil{
+      margin-left: -2%;
+      font-size: 50px;
+      color:white;
+      
+    }
+    .sc{
+      align-items: center;
+      flex-direction: column;
+      width: 70%;
+      margin-top: -6%;
+    }
+    .category{
+      width: 330px;
+      height: 390px;
+    } 
+
+}
+
+@media only screen and (max-width: 600px){
+    .about h1 {
+      margin-left: -25%;
+      margin-right:1%;
+      margin-top: 35%;
+      font-size: 60px; 
+      color: #db2b39;
+    }
+    
+    .about p {
+      margin-top: -11%;
+      margin-left: -20%;
+      margin-right: 0%;
+    }
+    .do{
+      margin-top: 15%;
+      margin-left: 3%;
+    }
+    .do h2 {
+      margin-top:32%;
+      margin-left: 6%;
+      margin-right: 0%;
+      font-size: 300%;
+    }
+    .do p {
+      margin-left: -20%;
+      font-size: 18px;
+      margin-right:5%;
+      margin-top: -6%; 
+      text-align: center;
+    }
+    .do-do{
+      margin-top: 22%;
+    }
+    .do-do h3{
+      margin-left: 1%;;
+      margin-right: 26%;
+      margin-top: -10%;
+      font-weight: bolder;
+      font-size: 57px;
+    }
+    .do-do span{
+      font-size: 15px;
+      font-weight: lighter;
+    }
+    .about-btn1{
+      width: 45%;
+      margin-left: -10%;
+    }
+    .about-btn{
+      width: 45%;
+    }
+    /*SKILLS*/
+    .skil{
+      margin-left: -2%;
+      font-size: 53px;
+      color:white;
+    }
+    .sc{
+      flex-direction: column;
+      width: 60%;
+      margin-top: -8%;
+    }
+    .category{
+      width: 340px;
+      height: 380px;
+    }
+  }
