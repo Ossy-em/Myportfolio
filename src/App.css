@@ -1,7 +1,7 @@
 
 
 body{
-  background-color: #000000;
+  background-color: #00040f;
   margin-left: 0px;
   /* margin-right: -10px; */
 }
@@ -14,7 +14,7 @@ body{
 	--mainColor: #010407;
 	--mainColorLight: #010407;
 	--secondaryColor: #db2b39;
-	--textColor: #eee;
+	--textColor: #ffffff;
 }
 
 /* Header.css */
@@ -82,11 +82,10 @@ nav {
   margin-left: 5px;
   margin-right: 20%;
   margin-top: 17%;
-  color: #eee;
   font-size: 73px;
   font-Family: 'Pacifico-Regular';
   text-align: center; 
-  color:white; 
+  color:#ffffff; 
 }
 .AnimatedLine{
   color: #dadada;
@@ -214,7 +213,7 @@ nav {
   padding-top: 30px;
   padding-left: 35px;
   padding-right: 35px;
-  background-color: #25292e;
+  background-color: #2a2e36;
   border-radius: 20px;
   width: 390px; /* Adjust width as needed */
   height: 380px; /* Adjust height as needed */
@@ -230,7 +229,7 @@ nav {
 }
 
 .category:hover{
-  background-color: rgb(51, 20, 3);
+  background-color:#491605;
 }
 
 .icon {
@@ -374,10 +373,10 @@ button {
 }
 
 /*PROJECT*/
-.project-card{
-  /* color: #000000; */
+/* .project-card{
 
-}
+
+} */
 /*FOOTER*/
 
 /*working*/
@@ -644,7 +643,11 @@ header{
       margin-left: -18%;
       margin-right: 6%;
       margin-bottom: 12%;
-      font-size: 20px;
+      font-size: 16px;
+      line-height: 22px;
+      font-family: "Nunito Sans", sans-serif;
+      letter-spacing: normal;
+      /* word-spacing: 1px; */
     }
     .do{
       margin-top: 17%;
@@ -658,9 +661,11 @@ header{
     }
     .do p {
       margin-left: -23%;
-      font-size: 18px;
+      font-size: 16px;
+      line-height: 22px;
       margin-right:3%;
       margin-top: -6%; 
+      font-family: "Nunito Sans", sans-serif;
       /* text-align: center; */
     }
     .do-do{
@@ -682,10 +687,14 @@ header{
       width: 40%;
       height: 55px;
       margin-left: -2%;
+      border-radius: 20px;
+      font-family: "Nunito Sans", sans-serif;
     }
     .about-btn{
       width: 40%;
       height: 55px;
+      border-radius: 20px;
+      font-family: "Nunito Sans", sans-serif;
     }
     /*SKILLS*/
     .skil{
@@ -708,6 +717,7 @@ header{
     }
     .category p{
       margin-top: -2%;
+      
     }
     .projecth1{
       margin-left: -3%;
