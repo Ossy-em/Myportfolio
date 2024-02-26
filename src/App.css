@@ -670,22 +670,24 @@ header h3{
       line-height: 22px;
       margin-right:3%;
       margin-top: -6%; 
-      font-family: "Nunito Sans", sans-serif;
-      /* text-align: center; */
+      font-family: sans-serif;
+      color: white;
     }
     .do-do{
       margin-top: 22%;
     }
     .do-do h3{
-      margin-left: 5%;;
+      margin-left: -3%;;
       margin-right: 26%;
       margin-top: -12%;
-      font-weight: bolder;
-      font-size: 50px;
+      font-size: 40px;
       color: white;
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
     }
     .do-do span{
-      font-size: 18px;
+      font-size: 15px;
       font-weight: lighter;
     }
     .about-btn1{
@@ -711,9 +713,7 @@ header h3{
       flex-direction: column;
       width: 60%;
       margin-top: -8%;
-      box-shadow: none;
-      border-radius: 21px;
-      color: #00040f;
+     
     }
     .category{
       width: 300px;
@@ -735,7 +735,7 @@ header h3{
     }
     .project-card{
       flex-direction: column;
-      width: 420px;
+      width: 450px;
       height: 340px;
       margin-top: 9%;
       margin-left: -12%;
@@ -743,6 +743,16 @@ header h3{
       font-size: 15px;
     }
     .project-btn{
-      margin-left: 23%;
+     
+      color: #00040f;
+      width: fit-content;
+      height: 47px;
+      background-color: #dadada;
+    }
+    .project-name{
+      
+      margin-top: 10%;
+      display: flex;
+      font-family: sans-serif;
     }
   }

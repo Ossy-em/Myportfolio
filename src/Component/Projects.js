@@ -14,9 +14,9 @@ const Projects = () => {
       <h1 className='projecth1'>Completed Projects</h1>
       <h3>Take a look at few of my completed projects</h3>
       <div className="project-card">
-        <h2 className="project-name">{projectName}</h2>
         <img src={ProjectImage} alt="Project Screenshot" className="project-image" />
-        <button onClick={viewProject} className='project-btn'>View Project</button>
+        <h2 className="project-name">{projectName} <button onClick={viewProject} className='project-btn'>View Project</button>
+        </h2>
       </div>
 
      
