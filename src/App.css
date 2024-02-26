@@ -339,7 +339,6 @@ nav {
   margin-top: 80px;
   margin-left: 295px;
   display: flex; /* Use flexbox */
-  
   flex-direction: column;
 }
 
@@ -348,9 +347,6 @@ nav {
   height: 180px;
   margin-top: 10px;
   margin-bottom: 0%;
-  
-
-  /* margin-bottom: 50px; */
   border-radius: 3%;
 }
 
@@ -365,10 +361,10 @@ button {
   width: 150px;
   height: 50px;
   color: #fff;
-  border-radius: 10%;
-  border: 2px solid rgb(59, 23, 2);
-  cursor: pointer;
-  font-size: 1em;
+  /* border-radius: 10%; */
+  /* border: 2px solid rgb(59, 23, 2); */
+  /* cursor: pointer; */
+  /* font-size: 1em; */
   margin-left: 100px;
   margin-top: auto;
 }
@@ -743,14 +739,11 @@ header h3{
       font-size: 15px;
     }
     .project-btn{
-     
-      color: #00040f;
+      bottom: unset;
       width: fit-content;
       height: 47px;
-      background-color: #dadada;
     }
     .project-name{
-      
       margin-top: 10%;
       display: flex;
       font-family: sans-serif;
